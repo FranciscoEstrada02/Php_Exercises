@@ -17,9 +17,6 @@
             $_SESSION["username"]=$usuario;
             
             header("location: index.php");
-        }else{
-            //NO es correcto el usuario o la contraseña
-            header("location: login.php?error=1");
         }
 
     }else{
