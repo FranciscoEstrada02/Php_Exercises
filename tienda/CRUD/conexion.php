@@ -8,6 +8,7 @@ $conexion->query($consulta);
 
 //Seleccionamos la base de datos y creamos la tabla si no existe
 $conexion->select_db("tienda");
+
 $consulta = "CREATE TABLE IF NOT EXISTS productos (
         id INT(255) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
         nombre VARCHAR(30) NOT NULL,

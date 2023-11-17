@@ -23,8 +23,13 @@
     echo "La bicicleta ah recorrido " . $bh->getKmRecorridos();
 
     echo "<hr>";
-
+    
     echo "El total que han recorrido los vehiculos es " . Vehiculo::getKmTotal();
+    
+    echo "<hr>";
+
+    $ferrari =new Coche("asdasd45", "Huracan");
+    $totales = $ferrari->recorre(200);
 
 
 
